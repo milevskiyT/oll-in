@@ -1,0 +1,39 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.page {
+  color: rgba(117, 117, 117, 1);
+  background-color: #ffffff;
+}
+/*color span #2196F3;#000000 */
+/* text #212121 */
+/* background 2F303A text FFFFFF * p 757575/
+/* убрав всі точки */
+ul {
+  list-style: none;
+}
+/* стилі навігації хедер */
+/* 
+.site-nav a:hover {
+  color: #2196f3;
+}
+.site-nav a:focus {
+  color: #212121;
+}
+.auth-nav a:hover {
+  color: #2196f3;
+}
+.auth-nav a :focus {
+  color: #212121;
+} */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.section-tittle {
+  color: #2a2a2a;
+}
