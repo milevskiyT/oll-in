@@ -1,39 +1,67 @@
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --logo-web-color: rgba(33, 150, 243, 1);
+  --logo-color: rgba(0, 0, 0, 1);
+  --primary-background-color: rgba(255, 255, 255, 1);
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 .page {
-  color: rgba(117, 117, 117, 1);
-  background-color: #ffffff;
+  color:var(--primary-text-color);
+  background-color:var(--primary-background-color)
 }
-/*color span #2196F3;#000000 */
-/* text #212121 */
-/* background 2F303A text FFFFFF * p 757575/
-/* убрав всі точки */
+/* сховав точки */
 ul {
   list-style: none;
 }
-/* стилі навігації хедер */
-/* 
-.site-nav a:hover {
+
+ /* стилі навігації хедер */ */
+ 
+.site-nav a .auth-nav:hover {
   color: #2196f3;
 }
-.site-nav a:focus {
+.site-nav a .auth-nav:focus {
   color: #212121;
 }
-.auth-nav a:hover {
-  color: #2196f3;
-}
-.auth-nav a :focus {
-  color: #212121;
-} */
-.site-nav .link {
-  color: #212121;
+.site-nav .link {color:var(--primary-text-color)
+Font family: 'Roboto';
+Font style: Medium;
+Font size: 14px;
+Line height: 16px;
+Line height: 100%;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
-.section-tittle {
-  color: #2a2a2a;
+
+/* portfolio */
+/* :root { */
+/* --primary-text-color: rgba(33, 33, 33, 1);
+  --logo-web-color: rgba(33, 150, 243, 1);
+  --logo-color: rgba(0, 0, 0, 1);
+} */
+.web-logo {
+  color: var(--logo-web-color);
+}
+.logo {
+  color: var(--logo-color);
+}
+.button {
+  background-color: var(--primary-background-color);
+}
+.footerbg {
+  background-color: rgba(47, 48, 58, 1);
+}
+.logofot .web-logo{font-family:'Raleway';
+Font style: Bold
+Font size: 26px
+Line height: 31px
+Line height: 100%
+}
+.logofot{
+  color: #ffffff;
 }
